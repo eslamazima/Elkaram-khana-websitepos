@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 // إعدادات القاعدة السحابية (استبدل الرابط برابط MongoDB الخاص بك)
-const mongoURI = "mongodb+srv://user:password@cluster.mongodb.net/elkaram";
+const mongoURI = mongodb+srv://eslamazima10_db_user:mMSp6blFzFHbVyew@cluster0.sgooqud.mongodb.net/?appName=Cluster0;
 mongoose.connect(mongoURI).then(() => console.log("Connected to MongoDB Atlas"));
 
 // تعريف موديل الوجبات
